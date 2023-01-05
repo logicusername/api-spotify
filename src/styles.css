@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.letra {
+    font-family: "Caveat", cursive;
+}
+.letra2 {
+    font-family: 'Comfortaa', cursive;
+}
+.boton-rojo{
+    visibility: hidden;
+}
+.favoritos-box{
+    border: "1px solid black" ;
+    width: "800px";
+    text-size-adjust: "10px";
+}
+.card-image{
+    width: 240px;
+    height: 240px;
+}
+.grid-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+} 
+.card-title{
+    text-align: center;
+}
